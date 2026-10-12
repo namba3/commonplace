@@ -1,0 +1,12 @@
+# mdBook generated site
+/book/
+
+# mdbook-mermaid generated assets (prepared locally and in CI)
+/mermaid.min.js
+/mermaid-init.js
+
+# Temporary and editor files
+*.swp
+*.tmp
+*~
+.DS_Store

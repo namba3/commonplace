@@ -1,0 +1,31 @@
+[book]
+title = "Commonplace"
+description = "技術、知識、考察を蓄積するCommonplace Book"
+language = "ja"
+src = "src"
+
+[build]
+build-dir = "book"
+create-missing = false
+
+[output.html]
+default-theme = "navy"
+preferred-dark-theme = "navy"
+no-section-label = true
+git-repository-url = "https://github.com/namba3/commonplace"
+edit-url-template = "https://github.com/namba3/commonplace/edit/main/{path}"
+site-url = "/commonplace/"
+mathjax-support = true
+additional-js = ["mermaid.min.js", "mermaid-init.js"]
+
+[output.html.fold]
+enable = true
+level = 0
+
+[output.html.search]
+enable = true
+
+[preprocessor]
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
