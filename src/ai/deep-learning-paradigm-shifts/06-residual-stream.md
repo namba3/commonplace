@@ -76,8 +76,8 @@ AttentionもFFNも、主経路そのものを置き換えるのでなく、**同
 と表す。重み \\(a_{ij}^{(h)}\\) はQueryとKeyから求める。
 
 \\[
-a_{ij}^{(h)}=\operatorname{softmax}_j
-\left(\frac{q_i^\top k_j}{\sqrt{d_k}}+m_{ij}\right)
+a&#95;{ij}^{(h)}=\operatorname{softmax}&#95;j
+\left(\frac{q&#95;i^\top k&#95;j}{\sqrt{d&#95;k}}+m&#95;{ij}\right)
 \\]
 
 このとき、概念的には二つの役割に分けられる。

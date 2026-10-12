@@ -46,8 +46,8 @@ Transformerの基本ブロックをPre-Norm型で書けば、
 
 \\[
 \begin{aligned}
-u_l&=x_l+\operatorname{Attn}_l(\operatorname{Norm}(x_l)),\\\\
-x_{l+1}&=u_l+\operatorname{FFN}_l(\operatorname{Norm}(u_l))
+u&#95;l&=x&#95;l+\operatorname{Attn}&#95;l(\operatorname{Norm}(x&#95;l)),\\\\
+x&#95;{l+1}&=u&#95;l+\operatorname{FFN}&#95;l(\operatorname{Norm}(u&#95;l))
 \end{aligned}
 \\]
 
