@@ -3,4 +3,4 @@
 プログラミング言語、処理系、言語機能、実装技法に関する記事を掲載します。
 
 
-- [AIコーディング時代の型システムと形式検証](type-systems-and-formal-verification/README.md)では、型システムや形式検証がAI生成コードの確認にどう役立つかを考察します。
+- [AIコーディング時代の型システムと形式検証](type-systems-and-formal-verification/)では、型システムや形式検証がAI生成コードの確認にどう役立つかを考察します。

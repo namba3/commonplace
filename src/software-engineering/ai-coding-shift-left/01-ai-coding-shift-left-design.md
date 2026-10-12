@@ -292,4 +292,4 @@ AIコーディング時代のシフトレフトを、私はそういう開発プ
 
 ---
 
-[← シリーズトップ](README.md) ｜ [次章：要求・DDD・TDD・形式手法 →](./02-ai-coding-shift-left-requirements.md)
+[← シリーズトップ](./) ｜ [次章：要求・DDD・TDD・形式手法 →](./02-ai-coding-shift-left-requirements.md)

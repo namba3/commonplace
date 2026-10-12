@@ -475,4 +475,4 @@ Performance by Designは、この連鎖を性能工学へ適用する具体例�
 
 ---
 
-[← 前章：リスク分類と品質ゲート](./06-ai-coding-shift-left-quality-gates.md) ｜ [シリーズトップへ →](README.md)
+[← 前章：リスク分類と品質ゲート](./06-ai-coding-shift-left-quality-gates.md) ｜ [シリーズトップへ →](./)

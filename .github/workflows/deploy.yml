@@ -49,6 +49,10 @@ jobs:
           test -n "$(find book -maxdepth 1 -type f -name 'mermaid-init-*.js' -print -quit)"
           grep -lE 'version:"11\.16\.1"' book/mermaid-*.min.js
           grep -q 'class="mermaid"' book/computer-science-theory/mathematics-of-computing/01-math-foundations-ai-overview.html
+          if grep -R -q --include='*.html' 'README\.html' book; then
+            echo "Generated HTML links to README.html instead of a section index."
+            exit 1
+          fi
           test -s book/legal/third-party.html
           for license in MIT.txt MIT-Mermaid.txt MIT-js-yaml.txt MIT-Cytoscape.txt MIT-cose-bilkent-4.1.0.txt MIT-fcose-2.2.0.txt MPL-2.0.txt BSD-3-Clause-Highlight.js.txt CC-BY-4.0.txt Apache-2.0.txt Apache-2.0-Open-Sans.txt OFL-1.1-Source-Code-Pro.txt; do
             test -s "book/legal/licenses/$license"
