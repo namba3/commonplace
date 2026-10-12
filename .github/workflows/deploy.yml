@@ -44,10 +44,10 @@ jobs:
           test "$(mdbook-mermaid --version)" = "mdbook-mermaid 0.17.1"
           test -s mermaid.min.js
           test -s mermaid-init.js
-          rg -q 'version:"11\.16\.1"' mermaid.min.js
+          grep -Eq 'version:"11\.16\.1"' mermaid.min.js
           test -n "$(find book -maxdepth 1 -type f -name 'mermaid-*.min.js' -print -quit)"
           test -n "$(find book -maxdepth 1 -type f -name 'mermaid-init-*.js' -print -quit)"
-          rg -l 'version:"11\.16\.1"' book/mermaid-*.min.js
+          grep -lE 'version:"11\.16\.1"' book/mermaid-*.min.js
           grep -q 'class="mermaid"' book/computer-science-theory/mathematics-of-computing/01-math-foundations-ai-overview.html
           test -s book/legal/third-party.html
           for license in MIT.txt MIT-Mermaid.txt MIT-js-yaml.txt MIT-Cytoscape.txt MIT-cose-bilkent-4.1.0.txt MIT-fcose-2.2.0.txt MPL-2.0.txt BSD-3-Clause-Highlight.js.txt CC-BY-4.0.txt Apache-2.0.txt Apache-2.0-Open-Sans.txt OFL-1.1-Source-Code-Pro.txt; do
