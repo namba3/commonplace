@@ -14,7 +14,7 @@ Q=XW_Q,\qquad K=XW_K,\qquad V=XW_V
 
 \\[
 \operatorname{Attention}(Q,K,V)
-=\operatorname{softmax}\!\left(\frac{QK^\top}{\sqrt{d_k}}+M\right)V
+=\operatorname{softmax}\\!\left(\frac{QK^\top}{\sqrt{d_k}}+M\right)V
 \\]
 
 で出力を得る。\\(M\\) は必要に応じたマスクで、Causalモデルでは未来位置への参照を制限する。

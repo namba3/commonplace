@@ -37,7 +37,7 @@ K(x,x')=\langle\phi(x),\phi(x')\rangle
 判別関数は、例えばサポートベクトルを用いて
 
 \\[
-f(x)=\operatorname{sign}\!\left(\sum_{i\in\mathcal S}\alpha_i y_i K(x_i,x)+b\right)
+f(x)=\operatorname{sign}\\!\left(\sum_{i\in\mathcal S}\alpha_i y_i K(x_i,x)+b\right)
 \\]
 
 と書ける。学習済みモデルは単なるパターン照合ではないが、カーネルを通じた訓練点との関係を推論時に評価する。一般的な深層ネットワークの「入力へ多層写像を適用する」方式とは計算上の構造が異なる。

@@ -7,7 +7,7 @@ Deep Learningの初期の成功は、**何でも同じネットワークで処�
 CNN（Convolutional Neural Network）は、局所的な近傍に同じフィルタを適用する。
 
 \\[
-h_{i,j,c'}=\sigma\!\left(
+h_{i,j,c'}=\sigma\\!\left(
 \sum_{u,v,c}W_{u,v,c,c'}x_{i+u,j+v,c}+b_{c'}
 \right)
 \\]
