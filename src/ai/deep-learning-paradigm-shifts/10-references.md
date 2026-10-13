@@ -33,6 +33,8 @@
 - Bahdanau, D., Cho, K., & Bengio, Y. (2014/2015). [*Neural Machine Translation by Jointly Learning to Align and Translate*](https://arxiv.org/abs/1409.0473). — RNNベースのAttention。
 - He, K. et al. (2016). [*Deep Residual Learning for Image Recognition*](https://arxiv.org/abs/1512.03385). *CVPR*. — ResNet。
 - He, K. et al. (2016). [*Identity Mappings in Deep Residual Networks*](https://arxiv.org/abs/1603.05027). *ECCV*. — Identity経路とPre-activationの解析。
+- Liu, Z. et al. (2022). [*A ConvNet for the 2020s*](https://openaccess.thecvf.com/content/CVPR2022/html/Liu_A_ConvNet_for_the_2020s_CVPR_2022_paper.html). *CVPR*. — ConvNeXtによる現代的なConvNetの設計と評価。
+- Woo, S. et al. (2023). [*ConvNeXt V2: Co-Designing and Scaling ConvNets with Masked Autoencoders*](https://openaccess.thecvf.com/content/CVPR2023/html/Woo_ConvNeXt_V2_Co-Designing_and_Scaling_ConvNets_With_Masked_Autoencoders_CVPR_2023_paper.html). *CVPR*. — ConvNetとMasked Autoencoder事前学習の共同設計。
 
 ## Transformer・現代的構造
 
@@ -48,10 +50,15 @@
 - Ainslie, J. et al. (2023). [*GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints*](https://aclanthology.org/2023.emnlp-main.298/). *EMNLP*. — Grouped Query Attention。
 - Peebles, W., & Xie, S. (2023). [*Scalable Diffusion Models with Transformers*](https://openaccess.thecvf.com/content/ICCV2023/html/Peebles_Scalable_Diffusion_Models_with_Transformers_ICCV_2023_paper.html). *ICCV*. — DiTとadaLN-Zero。
 
-## 暗記と生成モデル
+## 記憶・自己回帰予測・生成モデル
 
 - Carlini, N. et al. (2021). [*Extracting Training Data from Large Language Models*](https://www.usenix.org/conference/usenixsecurity21/presentation/carlini-extracting). *USENIX Security*. — 訓練データの抽出。
+- Brown, T. B. et al. (2020). [*Language Models are Few-Shot Learners*](https://arxiv.org/abs/2005.14165). *NeurIPS*. — 自己回帰型言語モデルの大規模事前学習とin-context学習。
 - Lipman, Y. et al. (2023). [*Flow Matching for Generative Modeling*](https://arxiv.org/abs/2210.02747). *ICLR*. — ベクトル場を学習する生成モデル。
+
+## エージェントと実行環境
+
+- OpenAI. [*Agents*](https://developers.openai.com/api/docs/guides/agents). — モデルを呼び出す実行方式と、アプリケーション側で制御するエージェントループ。
 
 ---
 

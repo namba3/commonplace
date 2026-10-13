@@ -18,4 +18,4 @@
 - [第9章：総括](09-synthesis.md)
 - [参考文献と関連資料](10-references.md)
 
-より数学的な背景は、関連シリーズ[AI時代に再発見する情報科学の数学的本質](../../computer-science-theory/mathematics-of-computing/)も参照してください。
+関連する読み物として、[AI時代に再発見する情報科学の数学的本質](../../computer-science-theory/mathematics-of-computing/)もあります。

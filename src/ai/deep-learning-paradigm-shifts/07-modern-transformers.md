@@ -68,7 +68,9 @@ ViTは画像パッチをトークンとして扱い、Transformerの基本ブロ
 
 ## 7.5 CNN/RNNは時代遅れになったのか
 
-そうとは言えない。局所性が重要で計算量を抑えたい画像処理ではCNNが有力であり、リアルタイムの時系列処理ではRNN系が適切な場合もある。入力の長さ、データ量、遅延、計算資源に応じて選択すべきである。
+そうとは言えない。たとえばConvNeXtは、Vision Transformerの設計上の知見を取り入れてResNetを現代化した純粋なConvNetである。論文の比較実験では、ImageNet分類やCOCO物体検出、ADE20KセマンティックセグメンテーションでTransformer系モデルと競争力のある結果を示した。[Liu et al. (2022)](https://openaccess.thecvf.com/content/CVPR2022/html/Liu_A_ConvNet_for_the_2020s_CVPR_2022_paper.html)。ConvNeXt V2は、畳み込みモデルとMasked Autoencoderによる事前学習を組み合わせた後続例である。[Woo et al. (2023)](https://openaccess.thecvf.com/content/CVPR2023/html/Woo_ConvNeXt_V2_Co-Designing_and_Scaling_ConvNets_With_Masked_Autoencoders_CVPR_2023_paper.html)
+
+RNN系も、系列を逐次処理する必要がある用途では候補になり得る。どの構造が適するかは、入力の長さ、データ量、遅延、計算資源などに応じて判断する。
 
 また、Transformerを使えば必ず多様体上の理想的な幾何変換が獲得されるわけではない。**Transformer時代とは、ひとつの演算がすべてを解決する時代ではなく、汎用的な更新計算を再利用する設計が大きく発展した時代**だと理解したい。
 
