@@ -214,6 +214,6 @@ AIがコードを書くようになったとき、人間が「どう書くか」
 
 ## 章ナビゲーション
 
-- **シリーズの総論：** [第1章｜総論：二つの数学的な転換](01-math-foundations-ai-overview.md)
+- **シリーズの総論：** [第1章｜総論：2つの数学的な転換](01-math-foundations-ai-overview.md)
 - **前章：** [第4章｜AIコーディング：仕様と設計](04-math-foundations-ai-coding.md)
 - **次章：** [第6章｜言語比較：保証の種類と選定](06-math-foundations-ai-languages.md)

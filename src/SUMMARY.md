@@ -18,7 +18,7 @@
   - [予測というインターフェイスから見るAIの内部世界](ai/prediction-as-interface/README.md)
     - [第1章：出力をインターフェイスとして読む](ai/prediction-as-interface/01-output-as-interface.md)
     - [第2章：単純な予測から内部表現が育つ理由](ai/prediction-as-interface/02-prediction-and-representation.md)
-    - [第3章：一回の予測から長い推論と画像生成へ](ai/prediction-as-interface/03-iteration-and-generation.md)
+    - [第3章：1回の予測から長い推論と画像生成へ](ai/prediction-as-interface/03-iteration-and-generation.md)
     - [第4章：マルチモーダルを統合するTransformer](ai/prediction-as-interface/04-unified-transformer.md)
     - [第5章：共通状態・異なる出力ヘッド・注意マスク](ai/prediction-as-interface/05-unified-state-and-heads.md)
     - [第6章：内部表現から世界モデルへ](ai/prediction-as-interface/06-world-models.md)

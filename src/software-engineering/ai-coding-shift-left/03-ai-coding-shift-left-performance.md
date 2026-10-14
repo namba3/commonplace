@@ -17,7 +17,7 @@
 
 関連する歴史的背景には、Connie U. Smith の *Performance Engineering of Software Systems*（1990）に代表される **Software Performance Engineering（SPE）** と、Menascé・Almeida・Dowdy による *Performance by Design: Computer Capacity Planning by Example*（2004）がある（[Smith (1990)](https://books.google.com/books/about/Performance_Engineering_of_Software_Syst.html?id=q8omAAAAMAAJ)、[Menascéら (2004)](https://books.google.com/books/about/Performance_by_Design.html?id=sxE931Medm4C)）。したがって、AIコーディング固有の新概念でも、統一された唯一の標準規格でもありません。本記事では、性能工学をAI支援開発へ応用する方法を整理します。
 
-シフトレフトとの接点は次の三層として把握できる。
+シフトレフトとの接点は次の3層として把握できる。
 
 | 層 | 目的 | 具体的な活動 |
 |---|---|---|

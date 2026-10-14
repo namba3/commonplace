@@ -13,7 +13,7 @@
 - [第2章：Deep Learningが起こした最初のパラダイムシフト](02-representation-learning.md)
 - [第3章：多様体仮説と非線形幾何変換](03-manifold-geometric.md)
 - [第4章：CNN・RNN時代とResNet](04-cnn-rnn-resnet.md)
-- [第5章：Transformerが起こした二度目のパラダイムシフト](05-transformer-shift.md)
+- [第5章：Transformerが起こした2度目のパラダイムシフト](05-transformer-shift.md)
 - [第6章：Residual StreamとComputational Branch](06-residual-stream.md)
 - [第7章：Transformerの構成要素と応用](07-modern-transformers.md)
 - [第8章：Deep Learningをめぐる誤解](08-misconceptions.md)
