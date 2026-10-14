@@ -1,5 +1,7 @@
 # AI / Deep Learning
 
+作成日：2026-10-12 / 更新日：2026-10-14
+
 AI、機械学習、深層学習に関する記事を掲載します。
 
 - [Deep Learningのパラダイムシフト](deep-learning-paradigm-shifts/)では、特徴表現の学習からTransformerまでの変化を、機械学習の歴史・幾何学・内部構造の観点から考察します。

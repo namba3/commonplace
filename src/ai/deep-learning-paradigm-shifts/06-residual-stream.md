@@ -1,5 +1,7 @@
 # 第6章 Transformerの現代的解釈：Residual StreamとComputational Branch
 
+作成日：2026-10-12 / 更新日：2026-10-14
+
 Transformerを「AttentionとFFNを順に通すネットワーク」とだけ説明すると、もっとも重要な設計の一つが見えなくなる。それは、**情報を運ぶ主経路**と**情報の更新量を計算する経路**が分かれていることである。
 
 この観点は、[Elhage et al. (2021), *A Mathematical Framework for Transformer Circuits*](https://transformer-circuits.pub/2021/framework/index.html) で提示された **Residual Streamを共通の通信経路として読む**分析と親和的である。

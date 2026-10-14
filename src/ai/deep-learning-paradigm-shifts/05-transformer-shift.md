@@ -1,5 +1,7 @@
 # 第5章 Transformerが起こした二度目のパラダイムシフト
 
+作成日：2026-10-12 / 更新日：2026-10-14
+
 ## 5.1 Attentionを中心に、系列全体の相互作用を計算する
 
 Transformerは、2017年の[Vaswani et al., *Attention Is All You Need*](https://arxiv.org/abs/1706.03762) で提案された。RNNの逐次状態更新を主要構造にせず、Attentionを用いた系列処理を提示した。
