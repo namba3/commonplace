@@ -16,9 +16,12 @@ def mark_page(html_path: Path) -> bool:
     matches = list(MAIN_RE.finditer(source))
     if len(matches) != 1:
         return False
+    main_tag = matches[0]
+    main_end = source.find(">", main_tag.end())
+    if "data-pagefind-body" in source[main_tag.start() : main_end]:
+        return True
     if "data-pagefind-body" in source:
         raise ValueError(f"Pagefind marker already exists in {html_path}")
-    main_tag = matches[0]
     source = source[: main_tag.end()] + " data-pagefind-body" + source[main_tag.end() :]
     html_path.write_text(source, encoding="utf-8")
     return True
