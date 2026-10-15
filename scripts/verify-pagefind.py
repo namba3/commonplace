@@ -70,6 +70,8 @@ def main() -> None:
                 initializer = asset_path.read_text(encoding="utf-8")
                 if 'config.setAttribute("base-url", siteBase.pathname)' not in initializer:
                     errors.append(f"Pagefind initializer does not derive its base URL from its served path: {relative}")
+                if 'config.setAttribute("bundle-path", pagefindBase.pathname)' not in initializer:
+                    errors.append(f"Pagefind initializer does not derive its bundle path from its served path: {relative}")
         pages.append(relative)
 
     entry_path = site / "pagefind" / "pagefind-entry.json"

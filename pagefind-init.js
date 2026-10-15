@@ -31,6 +31,7 @@
 
             const config = document.createElement("pagefind-config");
             config.setAttribute("base-url", siteBase.pathname);
+            config.setAttribute("bundle-path", pagefindBase.pathname);
             const modal = document.createElement("pagefind-modal");
             const trigger = document.createElement("pagefind-modal-trigger");
             trigger.setAttribute("compact", "");

@@ -99,6 +99,7 @@ try {
     await new Promise((resolve) => setImmediate(resolve));
     const config = body.children.find((element) => element.tagName === "pagefind-config");
     assert.equal(config?.attributes["base-url"], expectedBase, `wrong Pagefind base URL at ${servedPath}`);
+    assert.equal(config?.attributes["bundle-path"], `${expectedBase}pagefind/`, `wrong Pagefind bundle path at ${servedPath}`);
     assert.equal(main.attributes["data-pagefind-body"], "", `article body not marked at ${servedPath}`);
     assert(toolbar.children.some((element) => element.tagName === "pagefind-modal-trigger"), `search trigger missing at ${servedPath}`);
     assert(head.children.some((element) => element.href?.includes(`${expectedBase}pagefind/pagefind-component-ui.css`)), `component CSS path wrong at ${servedPath}`);
