@@ -1,0 +1,53 @@
+/* Keep Pagefind's Component UI aligned with the active mdBook theme. */
+:root {
+    --pf-text: var(--fg);
+    --pf-text-secondary: var(--fg);
+    --pf-text-muted: var(--fg);
+    --pf-background: var(--bg);
+    --pf-border: var(--table-border-color);
+    --pf-border-focus: var(--searchbar-border-color);
+    --pf-hover: var(--theme-hover);
+    --pf-font: inherit;
+}
+
+#mdbook-menu-bar pagefind-modal-trigger {
+    display: flex;
+    align-items: center;
+    height: var(--menu-bar-height);
+}
+
+/* Match the neighboring mdBook icon buttons instead of Pagefind's search-box button. */
+#mdbook-menu-bar .pf-trigger-btn {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: auto !important;
+    height: var(--menu-bar-height) !important;
+    padding: 0 8px !important;
+    background: transparent !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    color: var(--icons) !important;
+    transition: color 0.5s !important;
+}
+
+#mdbook-menu-bar .pf-trigger-btn:hover {
+    border-color: transparent !important;
+    color: var(--icons-hover) !important;
+}
+
+#mdbook-menu-bar .pf-trigger-icon {
+    width: 16px !important;
+    height: 16px !important;
+    background: currentColor !important;
+}
+
+@media only screen and (max-width: 420px) {
+    #mdbook-menu-bar .pf-trigger-btn {
+        padding: 0 5px !important;
+    }
+}
+
+pagefind-modal {
+    --pf-modal-max-width: min(760px, calc(100vw - 2rem));
+}

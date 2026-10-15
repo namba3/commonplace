@@ -1,6 +1,6 @@
 # サードパーティライセンス
 
-作成日：2026-10-12 / 更新日：2026-10-12
+作成日：2026-10-12 / 更新日：2026-10-15
 
 Commonplaceの記事や画像に包括的なライセンスを付与するページではありません。ここでは、ビルドに使うツールと、サイトのHTML・JavaScript・CSS・フォントとして配信する主な第三者ソフトウェアを区別して記載します。上流ソースとライセンスは記載した固定バージョンを基準にしています。
 
@@ -12,6 +12,7 @@ Commonplaceの記事や画像に包括的なライセンスを付与するペー
 | --- | --- | --- | --- |
 | [mdBook](https://github.com/rust-lang/mdBook/tree/v0.5.4) | 0.5.4 | Markdownから静的サイトを生成。下記のmdBook由来のブラウザー資産も生成・配信します。 | MPL-2.0 ([原文](licenses/MPL-2.0.txt), [上流](https://github.com/rust-lang/mdBook/blob/v0.5.4/LICENSE)) |
 | [mdbook-mermaid](https://github.com/badboy/mdbook-mermaid/tree/v0.17.1) | 0.17.1 | MermaidコードブロックをHTMLへ変換し、初期化スクリプトをインストール。 | MPL-2.0 ([原文](licenses/MPL-2.0.txt), [上流](https://github.com/badboy/mdbook-mermaid/blob/v0.17.1/LICENSE)) |
+| [Pagefind](https://github.com/Pagefind/pagefind/tree/v1.5.2) | 1.5.2 | 日本語対応検索インデックスを生成し、Component UIと検索ランタイムを提供。 | MIT ([原文と同梱コンポーネントの表示](licenses/MIT-Pagefind.txt), [上流](https://github.com/Pagefind/pagefind/blob/v1.5.2/LICENSE/LICENSE)) |
 
 ローカルとGitHub Actionsではこの表のバージョンを使用します。Cargo経由の間接依存はビルド環境で使うもので、サイトから配信する資産とは分けて扱います。
 
@@ -54,6 +55,10 @@ Mermaidの配布バンドルは第三者コンポーネントのライセンス�
 この表のバージョンはMermaid.js 11.16.1の配信バンドル末尾に表示された情報を記載しています。バンドルに個別バージョン表示がない構成要素は、その旨を明記しました。Cytoscape関連の上流ライセンス原文には著作権表示を含めています。バンドル末尾にあるPromises/A+ thenable、jQueryイベント由来コード、Bezier曲線、Runge-Kutta spring physicsのMIT表示も、配信ファイル中に保持しています。準備処理ではライセンスコメントを加工せず、上流の `mermaid.min.js` をそのまま配置します。
 
 `mermaid-init-*.js` は `mdbook-mermaid` 0.17.1由来の初期化スクリプトで、MPL-2.0です ([原文](licenses/MPL-2.0.txt), [対応する上流ソース](https://github.com/badboy/mdbook-mermaid/blob/v0.17.1/src/bin/assets/mermaid-init.js))。`mdbook-mermaid install .` が生成する `mermaid.min.js` と `mermaid-init.js` はGit管理せず、`scripts/prepare-mermaid-assets.py` とGitHub Actionsで生成します。初期化スクリプトは現在上流と同一であることをSHA-256で確認します。独自変更を検出した場合はスクリプトが停止し、ファイルを上書きしません。
+
+### Pagefind
+
+Pagefind 1.5.2のExtended CLIはビルド時に日本語の単語分割を含む静的インデックスを生成します。Component UI、CSS、JavaScript、検索ワーカー、インデックスをGitHub Pagesから配信します。上流パッケージのMITライセンスと同梱 `vscode-ripgrep` のMIT表示を[保存したライセンス文書](licenses/MIT-Pagefind.txt)に収録しています。実行時に外部検索サーバーやCDNは使いません。
 
 ## Commonplaceのコンテンツについて
 

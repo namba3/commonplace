@@ -1,0 +1,11 @@
+{
+  "name": "commonplace-site-tools",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "serve": "node scripts/serve-pagefind.mjs"
+  },
+  "devDependencies": {
+    "pagefind": "1.5.2"
+  }
+}

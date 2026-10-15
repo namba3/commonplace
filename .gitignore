@@ -1,5 +1,6 @@
 # mdBook generated site
 /book/
+/node_modules/
 
 # mdbook-mermaid generated assets (prepared locally and in CI)
 /mermaid.min.js
