@@ -35,6 +35,7 @@
     - [5. AI生成コードの独立検証](software-engineering/ai-coding-shift-left/05-ai-coding-shift-left-verification.md)
     - [6. リスク分類と品質ゲート](software-engineering/ai-coding-shift-left/06-ai-coding-shift-left-quality-gates.md)
     - [7. 既存リポジトリへの導入](software-engineering/ai-coding-shift-left/07-ai-coding-shift-left-practice.md)
+- [バイブ・コーディングの可能性と限界](software-engineering/vibe-coding-benefits-risks/README.md)
 - [Programming Languages](programming/README.md)
   - [AIコーディング時代の型システムと形式検証](programming/type-systems-and-formal-verification/README.md)
     - [前編：AIコーディングと静的型付け](programming/type-systems-and-formal-verification/01-type-systems.md)
