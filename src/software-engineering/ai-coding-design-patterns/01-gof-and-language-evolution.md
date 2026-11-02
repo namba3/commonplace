@@ -129,4 +129,4 @@ Singletonも、静的変数やモジュールを使えば実装自体は容易�
 
 ---
 
-[← シリーズトップ](README.md) ｜ [次へ：変わらない設計原則とAIコーディング](02-principles-and-ai-coding.md)
+[← シリーズトップ](./) ｜ [次へ：変わらない設計原則とAIコーディング](02-principles-and-ai-coding.md)

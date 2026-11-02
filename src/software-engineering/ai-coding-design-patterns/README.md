@@ -39,8 +39,8 @@ Rustのコード例は[技術付録](appendix-thumbnail-state.md)に抜粋を掲
 
 ## 関連記事
 
-- [AIコーディング時代のシフトレフト](../ai-coding-shift-left/README.md) — 要求、受け入れ条件、品質ゲート、独立検証
-- [AIコーディング時代の型システムと形式検証](../../programming/type-systems-and-formal-verification/README.md) — 型で表せることと証明できること
+- [AIコーディング時代のシフトレフト](../ai-coding-shift-left/) — 要求、受け入れ条件、品質ゲート、独立検証
+- [AIコーディング時代の型システムと形式検証](../../programming/type-systems-and-formal-verification/) — 型で表せることと証明できること
 
 ---
 

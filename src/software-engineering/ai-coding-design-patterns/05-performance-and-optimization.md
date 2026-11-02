@@ -83,4 +83,4 @@ SRは各課題で「AIのパッチによる高速化倍率 ÷ 専門家のパッ
 
 ---
 
-[← シリーズトップ](README.md) ｜ [前へ：AIコーディングのアンチパターンと設計実践](04-ai-antipatterns-and-practices.md) ｜ [次へ：画像ブラウザーで考える設計判断](06-image-browser-and-decisions.md)
+[← シリーズトップ](./) ｜ [前へ：AIコーディングのアンチパターンと設計実践](04-ai-antipatterns-and-practices.md) ｜ [次へ：画像ブラウザーで考える設計判断](06-image-browser-and-decisions.md)

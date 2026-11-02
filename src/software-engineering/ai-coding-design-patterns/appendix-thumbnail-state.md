@@ -55,4 +55,4 @@ fn complete(&mut self, id: RequestId, result: Result<(u32, u32), String>) -> boo
 
 ---
 
-[← 第6回：画像ブラウザーで考える設計判断](06-image-browser-and-decisions.md) ｜ [次へ：参考文献と関連資料](07-references.md) ｜ [シリーズトップ](README.md)
+[← 第6回：画像ブラウザーで考える設計判断](06-image-browser-and-decisions.md) ｜ [次へ：参考文献と関連資料](07-references.md) ｜ [シリーズトップ](./)

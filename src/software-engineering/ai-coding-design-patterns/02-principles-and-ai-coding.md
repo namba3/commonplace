@@ -49,4 +49,4 @@ YAGNIも同様に健在だ。AIが将来使うかもしれない拡張機構を�
 
 ---
 
-[← シリーズトップ](README.md) ｜ [前へ：GoFとプログラミング言語の進化](01-gof-and-language-evolution.md) ｜ [次へ：残るデザインパターンとAIの相性](03-patterns-and-ai-affinity.md)
+[← シリーズトップ](./) ｜ [前へ：GoFとプログラミング言語の進化](01-gof-and-language-evolution.md) ｜ [次へ：残るデザインパターンとAIの相性](03-patterns-and-ai-affinity.md)

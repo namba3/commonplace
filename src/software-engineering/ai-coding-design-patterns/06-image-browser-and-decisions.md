@@ -109,8 +109,8 @@ AIが複雑なコードを容易に書けるほど、**複雑さを引き受け�
 
 状態管理のサンプルとテストの詳細は、[技術付録：非同期サムネイルの状態モデル](appendix-thumbnail-state.md)にまとめた。
 
-関連する考察：[AIコーディング時代の型システムと形式検証](../../programming/type-systems-and-formal-verification/README.md) も参照。
+関連する考察：[AIコーディング時代の型システムと形式検証](../../programming/type-systems-and-formal-verification/) も参照。
 
 ---
 
-[← シリーズトップ](README.md) ｜ [前へ：クヌースの「早すぎる最適化」を再考する](05-performance-and-optimization.md) ｜ [次へ：技術付録](appendix-thumbnail-state.md)
+[← シリーズトップ](./) ｜ [前へ：クヌースの「早すぎる最適化」を再考する](05-performance-and-optimization.md) ｜ [次へ：技術付録](appendix-thumbnail-state.md)

@@ -62,8 +62,8 @@ AIによって突然生まれた失敗と、AI以前から存在する失敗を�
 
 表の検査は例示であり、単一のテストが安全性を証明するという意味ではない。
 
-関連する考察：[AIコーディング時代のシフトレフト](../ai-coding-shift-left/README.md) も参照。
+関連する考察：[AIコーディング時代のシフトレフト](../ai-coding-shift-left/) も参照。
 
 ---
 
-[← シリーズトップ](README.md) ｜ [前へ：残るデザインパターンとAIの相性](03-patterns-and-ai-affinity.md) ｜ [次へ：クヌースの「早すぎる最適化」を再考する](05-performance-and-optimization.md)
+[← シリーズトップ](./) ｜ [前へ：残るデザインパターンとAIの相性](03-patterns-and-ai-affinity.md) ｜ [次へ：クヌースの「早すぎる最適化」を再考する](05-performance-and-optimization.md)

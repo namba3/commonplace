@@ -84,4 +84,4 @@ GoF以外にも、Ports and Adapters（Hexagonal Architecture）のように外�
 
 ---
 
-[← シリーズトップ](README.md) ｜ [前へ：変わらない設計原則とAIコーディング](02-principles-and-ai-coding.md) ｜ [次へ：AIコーディングのアンチパターンと設計実践](04-ai-antipatterns-and-practices.md)
+[← シリーズトップ](./) ｜ [前へ：変わらない設計原則とAIコーディング](02-principles-and-ai-coding.md) ｜ [次へ：AIコーディングのアンチパターンと設計実践](04-ai-antipatterns-and-practices.md)

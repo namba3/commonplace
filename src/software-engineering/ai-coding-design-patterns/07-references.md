@@ -25,4 +25,4 @@
 
 ---
 
-[← シリーズトップ](README.md) ｜ [前へ：技術付録](appendix-thumbnail-state.md)
+[← シリーズトップ](./) ｜ [前へ：技術付録](appendix-thumbnail-state.md)
