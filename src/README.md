@@ -1,6 +1,6 @@
 # Commonplace
 
-作成日：2026-10-12 / 更新日：2026-10-16
+作成日：2026-10-12 / 更新日：2026-11-02
 
 Commonplaceは、技術的な知識、調査結果、考察を、自分の学習や関心に沿って整理・蓄積する個人的なCommonplace Bookです。ソフトウェア開発、プログラミング、AI、数学などのテーマを扱い、記事を随時追加・更新します。
 
@@ -14,6 +14,7 @@ Commonplaceは、技術的な知識、調査結果、考察を、自分の学習
 ## 記事シリーズ
 
 - [AIコーディング時代のシフトレフト](software-engineering/ai-coding-shift-left/index.html)：要求、設計、品質ゲート、独立検証を扱う全7章。
+- [AIコーディング時代のデザインパターン再考](software-engineering/ai-coding-design-patterns/index.html)：GoFの現代的再評価、AIとの相性、性能最適化を扱う全6回。
 - [AI時代に再発見する情報科学の数学的本質](computer-science-theory/mathematics-of-computing/index.html)：数学史、Deep Learning、型、形式検証を扱う全7章。
 - [AIコーディング時代の型システムと形式検証](programming/type-systems-and-formal-verification/index.html)：型システム、依存型、Lean 4を扱う記事と補足一覧。
 
