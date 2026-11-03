@@ -1,6 +1,6 @@
-# 参考資料・検証範囲
+# 参考資料
 
-作成日：2026-11-02 / 更新日：2026-11-02
+作成日：2026-11-02 / 更新日：2026-11-03
 
 [← シリーズ目次](./)
 
@@ -34,10 +34,3 @@
 26. <a id="ref-26"></a>**Goose**, [Documentation Index](https://aardappel.github.io/goose/docs/index.html) — 実装済み資料と、Wasm・Coroutine等の設計提案の一覧。
 27. <a id="ref-27"></a>**cppreference**, [std::pmr::monotonic_buffer_resource](https://en.cppreference.com/cpp/memory/monotonic_buffer_resource) — C++17以降の一括解放型メモリリソース。
 28. <a id="ref-28"></a>**Goose**, [Prior art: the nearest memory models, and what is new](https://aardappel.github.io/goose/docs/design/prior_art.html) — 2026年10月の開発元による先行研究整理。ML Kit、GNU obstacks、ParaSail、CのArena等との比較。**開発元の調査であり独立レビューではない**。
-
-## 検証範囲と再現性
-
-- 本稿は公式ドキュメント・公開測定値を確認した**文献レビュー**である。`goose`の掲載コード、CLI、FFIの**実行は未検証**。配布版v2026.3と更新中の公式仕様は一致しない可能性があるため、追試では両者の版を記録する。
-- Gooseの性能値は[公式ベンチマーク](https://aardappel.github.io/goose/bench/results.html)に基づく（2026年10月16日生成、基準コミット`f6d31d0e`）。独立再測定は未実施であり、データ構造や構築手順が異なる比較を「言語だけの性能差」と扱っていない。
-- 用途別表は2026年10月31日時点の**定性的評価**、第9〜10章の未来像は**予測**である。実際の採用予定や他言語への直接的影響を確認したという意味ではない。
-- 元原稿についてPandocによるHTML変換と静的検査を実施した。今回の連載分割版についても、生成後の構造検査を実施する。**mdBookとMermaidの実描画、Gooseのコンパイル・実行は未実施**であり、公開先では別途確認する必要がある。
