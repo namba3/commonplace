@@ -59,12 +59,6 @@
 - Ray et al. (CVPR 2026 Findings), [Mull-Tokens: Modality-Agnostic Latent Thinking](https://openaccess.thecvf.com/content/CVPR2026F/html/Ray_Mull-Tokens__Modality-Agnostic_Latent_Thinking_CVPRF_2026_paper.html) — マルチモーダル潜在トークン。
 - Qiu et al. (2026), [Does Latent Chain-of-Thought Actually Reason? A Single, Unifying Taxonomy for Latent Reasoning](https://arxiv.org/abs/2610.21182) — 潜在チェーンの表現・利用・状態遷移を分ける因果的な検証。
 
-## 検証範囲
-
-- mdBook 0.5.4でビルドし、生成HTMLに数式区切りが残ることと、ローカルリンク・アンカーの参照先を確認した。
-- 引用元の一次資料は主要な数値・構造の主張を中心に確認した。全外部URLの疎通確認や、論文の実験再現は行っていない。
-- Mermaid図は編集可能なソースを保持している。ブラウザー上での描画とテーマ別のコントラストは未確認である。
-
 ---
 
 [連載の目次へ](./)

@@ -77,7 +77,7 @@
     - [第5部：エコシステムとAIコーディング](programming/goose-memory-model/05-ecosystem-and-ai.md)
     - [第6部：Rustなどへの波及可能性](programming/goose-memory-model/06-lessons-for-rust.md)
     - [第7部：Gooseの将来と採用判断](programming/goose-memory-model/07-future-and-adoption.md)
-    - [参考資料・検証範囲](programming/goose-memory-model/references.md)
+    - [参考資料](programming/goose-memory-model/references.md)
 - [Computer Science & Theory](computer-science-theory/README.md)
   - [AI時代に再発見する情報科学の数学的本質](computer-science-theory/mathematics-of-computing/README.md)
     - [第1章：総論](computer-science-theory/mathematics-of-computing/01-math-foundations-ai-overview.md)

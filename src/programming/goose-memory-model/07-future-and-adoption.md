@@ -1,8 +1,8 @@
 # 第7部：Gooseの将来と採用判断
 
-作成日：2026-11-02 / 更新日：2026-11-02
+作成日：2026-11-02 / 更新日：2026-11-03
 
-[← 第6部](06-lessons-for-rust.md) · [参考資料・検証範囲 →](references.md)
+[← 第6部](06-lessons-for-rust.md) · [参考資料 →](references.md)
 
 > Goose自身の進化、標準ライブラリの成熟、採用条件を総括する。
 
@@ -126,4 +126,4 @@ Gooseの将来は、機能数よりも**メモリモデルに合ったAPI、互�
 
 ---
 
-[← 第6部](06-lessons-for-rust.md) · [参考資料・検証範囲 →](references.md)
+[← 第6部](06-lessons-for-rust.md) · [参考資料 →](references.md)

@@ -78,6 +78,6 @@ flowchart TB
 - [1回の予測から長い推論と画像生成へ](../prediction-as-interface/03-iteration-and-generation.md)
 - [マルチモーダルを統合するTransformer](../prediction-as-interface/04-unified-transformer.md)
 
-## AI利用と検証範囲
+## AI利用と記事の読み方
 
 本連載の文章・構成はAIによる草案作成と編集の支援を利用した。各論文の数値と結論は、引用元のモデル・学習方法・評価条件の範囲に限って読む。非公開商用モデルの内部構造は、公開資料で確認できない限り性能や振る舞いから断定しない。

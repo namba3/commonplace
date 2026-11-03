@@ -49,7 +49,7 @@ LoopSpec、LoopAhead、Diffusion Forcing Samplerに近い。モデルの出力�
 
 **段階C：MTP Draft・Block Denoising・Recurrent Coreを単一の生成アーキテクチャに組み込む。**
 
-たとえば浅いCoreの状態から\\(K\\)位置の候補を作り、ブロック内部でDenoisingを実行し、各Denoisingステップで必要に応じてCoreの反復を増やす。しかし、**この全体構造が学習・性能面で有利だという直接証拠は、ここで確認した研究からは得られない**。これは本稿独自の**提案的な設計仮説**である。
+たとえば浅いCoreの状態から\\(K\\)位置の候補を作り、ブロック内部でDenoisingを実行し、各Denoisingステップで必要に応じてCoreの反復を増やす。しかし、**この連載で取り上げた研究は各技術を個別に扱っており、3方式をすべて統合した構成の性能は示していない**。これは本稿独自の**提案的な設計仮説**である。
 
 ```mermaid
 flowchart TB
